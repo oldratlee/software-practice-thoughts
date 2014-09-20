@@ -41,6 +41,7 @@ PS：让我知道[`Successful Lisp: How to Understand and Use Common Lisp`（在
 - [豆列 - 通向Lisp之路](http://book.douban.com/doulist/1128439/)
 - [知乎 - 想要学习 Lisp，应该看哪些书、上哪些论坛呢？](http://www.zhihu.com/question/19621539)
 - [知乎 - 学习 LISP 有哪些网站或书籍推荐？](http://www.zhihu.com/question/19711404)
+- [ANSI Common Lisp 中文版](http://acl.readthedocs.org/en/latest/zhCN/index.html)
 
 ### `lisp`运行时介绍
 
