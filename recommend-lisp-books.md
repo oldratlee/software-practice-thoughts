@@ -7,7 +7,7 @@
 
 ![lisp](lisp.png)
 
-1. SICP
+1. [SICP](http://book.douban.com/subject/1148282/)
 -----------------------------
 
 作为编程界两大圣经之一，麻省理工的本科教材。非常经典，该书以`lisp`的方言`scheme`做为代码示例。
@@ -21,7 +21,7 @@
 如果快了话，前三章每天4个小时一周可以读完（包括做课后题），建议英语好的读英文版，中文版翻译质量不高。
 该书的作用是以下几本书中不可替代的，它是从如何学编程的角度讲的，以下的书是从如何学`lisp`的角度讲的。
 
-2. On Lisp
+2. [On Lisp](http://book.douban.com/subject/1432683/)
 -----------------------------
 
 该书适合对`lisp`有一定基础的同学，是迄今为止讲`lisp`的书籍中最深的一本，至今无人超越。
@@ -33,21 +33,24 @@
 网络上有人翻译了该书，大概有两三个版本，其中有一版翻译的非常之好，以至于超越了英文版，因为它纠正了英文版中的一些错误
 （这些错误是由于***On Lisp***写于，`ansi common lisp`标准出台之前，不是保罗的错）
 
-3. Successful Lisp
+3. [Successful Lisp](http://book.douban.com/subject/1456905/)
 -----------------------------
 
 这本书可以作为`common lisp`的入门教程，语言浅显易懂，示例也很到位，没有什么废话。
 把`lisp`的基本特性表述的很完整。该书于近些年成书，所以带有现代的气息。
 非常不错，值得一看。该书只有英文版，可以免费在线阅读。
 
-4. ANSI COMMON LISP
+4. [ANSI COMMON LISP](http://book.douban.com/subject/1456906/)
 -----------------------------
 
 这本同样是老保罗写的，是在`ansi`标准颁发之后写的`common lisp`入门教程。
 主要是讲`common lisp`的语法的。适合初学者阅读，书后的附录很有参考价值。
 可快速阅读，该书只有英文版，没有***Successful Lisp***生动，但是书很薄，作为快速入门的途径不错。
 
-5. Practical Common Lisp
+@oldratlee 注：   
+已有[ANSI Common Lisp 中文版](http://acl.readthedocs.org/en/latest/zhCN/index.html)。
+
+5. [Practical Common Lisp](http://book.douban.com/subject/10419466/)
 -----------------------------
 
 该书的最大特点是废话多，前3章值得阅读。
