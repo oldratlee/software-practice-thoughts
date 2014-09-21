@@ -35,7 +35,7 @@ brew install clisp
 
 ### `lisp`书籍
 
-- [推荐 学习LISP的书籍](http://blog.sina.com.cn/s/blog_72d43af30100pg5t.html)。这篇文章难能可贵地点评了几本书的风格和优劣。    
+- [学习`lisp`的书籍推荐](recommend-lisp-books.md)。这篇文章难能可贵地点评了几本书的风格和优劣。    
 PS：让我知道[`Successful Lisp: How to Understand and Use Common Lisp`（在线版）](http://psg.com/~dlamkins/sl/contents.html)这本入门的好书。[`PDF`版](http://ebixio.com/online_docs/SuccessfulLisp.pdf)下载。   
 由于`LISP`与其它语言从**基本概念**就开始的差异，已有的语言经验反而是个学习阻碍，深入浅出的巧妙讲解对入门太重要了。
 - [豆列 - 通向Lisp之路](http://book.douban.com/doulist/1128439/)
