@@ -33,6 +33,8 @@ brew install clisp
 - [Google Common Lisp 风格指南](http://lisp.es/Google-Common-Lisp-Style-Guide/GoogleCLSG-zhCN.xml) / [Google Common Lisp Style Guide](http://google-styleguide.googlecode.com/svn/trunk/lispguide.xml)  
 模式意味着“我的语言不够用了。” ── *Rich Hickey*  
 `Common Lisp`是一个强大的多范式程序语言。能力越强，责任越大。
+    - 来自[Style guides for Google-originated open-source projects](https://code.google.com/p/google-styleguide/)  
+      `Google`各种语言的代码风格指南。
 - [维基百科 - LISP](http://zh.wikipedia.org/wiki/LISP)
 - [维基百科 - Common Lisp](http://zh.wikipedia.org/wiki/Common_Lisp)
 
