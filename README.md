@@ -30,6 +30,9 @@ brew install clisp
     - [创造者的鉴赏力](http://daiyuwen.freeshell.org/gb/taste/taste.html)
 - [Lisp的永恒之道](http://coolshell.cn/articles/7526.html)
 - [为什么Lisp语言如此先进？（译文）](http://www.ruanyifeng.com/blog/2010/10/why_lisp_is_superior.html)
+- [Google Common Lisp 风格指南](http://lisp.es/Google-Common-Lisp-Style-Guide/GoogleCLSG-zhCN.xml) / [Google Common Lisp Style Guide](http://google-styleguide.googlecode.com/svn/trunk/lispguide.xml)  
+模式意味着“我的语言不够用了。” ── *Rich Hickey*  
+`Common Lisp`是一个强大的多范式程序语言。能力越强，责任越大。
 - [维基百科 - LISP](http://zh.wikipedia.org/wiki/LISP)
 - [维基百科 - Common Lisp](http://zh.wikipedia.org/wiki/Common_Lisp)
 
