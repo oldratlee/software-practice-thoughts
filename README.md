@@ -43,10 +43,11 @@ brew install clisp
 - [学习`lisp`的书籍推荐](recommend-lisp-books.md)。这篇文章难能可贵地点评了几本书的风格和优劣。    
 PS：让我知道[`Successful Lisp: How to Understand and Use Common Lisp`（在线版）](http://psg.com/~dlamkins/sl/contents.html)这本入门的好书。[`PDF`版](http://ebixio.com/online_docs/SuccessfulLisp.pdf)下载。   
 由于`LISP`与其它语言从**基本概念**就开始的差异，已有的语言经验反而是个学习阻碍，深入浅出的巧妙讲解对入门太重要了。
+- [ANSI Common Lisp 中文版](http://acl.readthedocs.org/en/latest/zhCN/index.html)
+- [The Common Lisp Cookbook](http://cl-cookbook.sourceforge.net/index.html)
 - [豆列 - 通向Lisp之路](http://book.douban.com/doulist/1128439/)
 - [知乎 - 想要学习 Lisp，应该看哪些书、上哪些论坛呢？](http://www.zhihu.com/question/19621539)
 - [知乎 - 学习 LISP 有哪些网站或书籍推荐？](http://www.zhihu.com/question/19711404)
-- [ANSI Common Lisp 中文版](http://acl.readthedocs.org/en/latest/zhCN/index.html)
 
 ### `lisp`运行时介绍
 
