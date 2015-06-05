@@ -1,7 +1,7 @@
-Why Git
+Why `Git`
 =========================
 
-![](why-git.png)
+![](images/why-git.png)
 
 :point_right: 自己在使用`git`过程中相对`svn`的感受强烈的变化。
 

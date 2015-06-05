@@ -1,4 +1,4 @@
-学习资料
+`Git`学习资料
 =================================
 
 入门和理解
@@ -13,8 +13,12 @@
     - 特别提一下其中的[workflow](https://www.atlassian.com/git/workflows)部分，对工作流有体系的讲解。  
     这部分的中文翻译在 [`Git`工作流指南](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)。
 - [蒋鑫 - Why `Git` is better than `SVN`](http://www.worldhello.net/2012/04/12/why-git-is-better-than-svn.html "蒋鑫：为什么 Git 比 SVN 好")
-- [Why Git - 自己在使用git过程中相对svn的感受强烈的变化](https://github.com/oldratlee/why-git)  
-自己写的一点内容，放在最后，算是敝帚自珍了 :joy:
+- `Github`的[git cheat sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)。【[本地文件](github-git-cheat-sheet.pdf)】
+
+PS，自己写的一点内容，放在最后，算是敝帚自珍了 :joy:
+
+- [Why Git - 自己在使用git过程中相对svn的感受强烈的变化](README.md)  
+- PPT: [git/gitlab使用](git-gitlab-usage.pptx)
 
 系统学习
 ----------------
