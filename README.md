@@ -20,6 +20,11 @@ brew install sbcl
 brew install clisp
 ```
 
+`lisp` quick start
+---------------------
+
+参见[从零开始，给出完整运行起一个`Lisp` `web`框架`clack`的`Hello World`应用](lisp-web-app-quick-start.md)
+
 相关资料
 -------------------
 
