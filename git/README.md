@@ -3,7 +3,8 @@ Why `Git`
 
 ![](images/why-git.png)
 
-:point_right: 自己在使用`git`过程中相对`svn`的感受强烈的变化。
+:point_right: Why I love to use git rather than svn!
+自己在使用`git`过程中相对`svn`的感受强烈的变化。
 
 :beer: 合并对提交过程的保留
 -------------------
