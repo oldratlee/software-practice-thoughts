@@ -8,7 +8,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [问题/陷阱](#%E9%97%AE%E9%A2%98%E9%99%B7%E9%98%B1)
+- [关于`Cache`的问题/陷阱](#%E5%85%B3%E4%BA%8Ecache%E7%9A%84%E9%97%AE%E9%A2%98%E9%99%B7%E9%98%B1)
 - [使用库 vs. 自己实现？](#%E4%BD%BF%E7%94%A8%E5%BA%93-vs-%E8%87%AA%E5%B7%B1%E5%AE%9E%E7%8E%B0)
 - [Java Cache Frameworks/Libs](#java-cache-frameworkslibs)
 - [Cache Middleware](#cache-middleware)
@@ -16,7 +16,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## 问题/陷阱
+## 关于`Cache`的问题/陷阱
 
 在应用开发通过`Cache`来性能优化时，要注意或了解下面的问题/陷阱：
 
@@ -41,7 +41,17 @@
 
 ## 使用库 vs. 自己实现？
 
-总得来说，`Cache`要解决好的问题与业务无关很稳定，所以一定有好的`Cache`框架，并解决好上面这些问题，而不应该自己去实现。
+总得来说，应该使用`Cache`框架而不应该自己去实现：
+
+1. `Cache`要解决好的问题与业务无关很稳定，所以一定有好的`Cache`框架，并解决好上面这些问题。
+1. `Cache`的并发控制/线程安全的问题，对于一般应用开发者来说，可能没有概念，即使是面向自己场景的简单实现也可能漏洞百出。
+1. 完整的`Cache`实现以应对不同场景的需求，要考虑很多方面：
+    - 条目的逐出（`Eviction`）/过期策略，如
+        - 最简单常用的基于固定数目上限的`LRU`
+        - 基于时间的逐出
+        - 基于引用，加速内存`GC`
+    - 逐出条目的回调，方便应用可以集成条目的生命周期，如添加监控
+    - `Cache`的命中率，方便了解系统的情况
 
 ## Java Cache Frameworks/Libs
 
