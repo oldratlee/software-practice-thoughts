@@ -37,7 +37,7 @@
         - 如果`Cache`中没有数据读实际数据，设置好`Cache`；
         - 如果`Cache`中有数据返回`Cache`数据。
         - 这样逻辑繁琐易漏易错。
-    - `Cache`会持有加载实际数据的`Loader`，参见`Guava`的[`CacheLoader`](https://github.com/google/guava/wiki/CachesExplained)模式。
+    - `Cache`会持有加载实际数据的`Loader`，参见`Guava`的[`CacheLoader`模式](https://github.com/google/guava/wiki/CachesExplained#population)。
 
 如果有『击穿』的情况，系统性能压力上来时会雪崩，而你想依赖的之前性能压测的性能数据已经没有意义了。
 
@@ -51,7 +51,7 @@
     1. 条目的逐出（`Eviction`）/过期策略，如
         - 最简单常用的基于固定数目上限的`LRU`
         - 基于时间的逐出
-        - 基于引用，加速内存`GC`
+        - 基于引用，以加速内存`GC`
     1. 逐出条目的回调，方便应用可以集成条目的生命周期，如添加监控
     1. `Cache`的命中率，方便了解系统的情况
     1. ……
