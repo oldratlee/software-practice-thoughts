@@ -24,12 +24,12 @@ def _update_load(load, task_counts, load_period, update_period=5):
     return task_counts * alpha + load * (1 - alpha)
 
 
-def loads(task_count, load_period):
+def loads(task_count, load_period, update_period=5):
     load = 0
     ret = np.zeros(len(task_count))
 
     for idx, n in enumerate(task_count[:-1]):
-        load = _update_load(load, task_count[idx], load_period)
+        load = _update_load(load, task_count[idx], load_period, update_period)
         ret[idx + 1] = load
 
     return ret
