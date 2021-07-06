@@ -32,6 +32,7 @@
 - 软件文档
     - [如何写一个`issue`](how-to-write-a-issue.md)
 - 系统设计与分析
+    - 分享PPT：[软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.0.pptx)
     - [`Cache`实践](cache-practice/README.md)  
         - 应用开发中，`Cache`毫无疑问是很重要的一块：提升应用性能的关键，降低像`DB`这样关键资源的负荷；
         - 但`Cache`的使用有很多要注意的问题与陷阱。
