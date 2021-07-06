@@ -1,6 +1,6 @@
 # Java Cache Practice
 
-:point_right: 应用开发中，`Cache`毫无疑问是很重要的一块：提升应用性能的关键，降低像`DB`这样关键资源的负荷。
+:point_right: 应用开发中，`Cache`毫无疑问是很重要的一块：提升应用性能的关键，降低像`DB`这样关键资源的负荷；但`Cache`的使用有很多要注意的问题与陷阱。
 
 <img src="cache.png" width="256" align="right" >
 
