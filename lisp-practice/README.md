@@ -3,6 +3,10 @@
 
 <img src="lisp.png" width="384" hspace="10px" align="right" >
 
+对于大多数程序员来说，`Lisp`是编程语言中的一个神。
+
+----------------------------------------
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -20,6 +24,8 @@
   - [个人整理资料](#%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86%E8%B5%84%E6%96%99)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+----------------------------------------
 
 Quick Start
 ---------------

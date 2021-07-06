@@ -29,3 +29,8 @@
 
 - [Cache Practice](cache-practice/README.md)  
   应用开发中，`Cache`毫无疑问是很重要的一块：提升应用性能的关键，降低像`DB`这样关键资源的负荷；但`Cache`的使用有很多要注意的问题与陷阱。
+
+# Lisp
+
+- [`Lisp` Practice](lisp-practice/README.md)  
+  对于大多数程序员来说，`Lisp`是编程语言中的一个神。
