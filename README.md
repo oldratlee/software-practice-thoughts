@@ -27,15 +27,15 @@
     - 分享（`PPT`）: [Git/GitLab(Github)使用](git/git-gitlab-usage.pptx)
 - 软件文档
     - [如何写一个`issue`](how-to-write-a-issue.md)
-- `Cache`实践
-    - [Cache Practice](cache-practice/README.md)  
-- [Cache Practice](cache-practice/README.md)  
-    - [Cache Practice](cache-practice/README.md)  
-      应用开发中，`Cache`毫无疑问是很重要的一块：提升应用性能的关键，降低像`DB`这样关键资源的负荷；但`Cache`的使用有很多要注意的问题与陷阱。
-- 系统`Load`的样子与计算方式
-    - [🚦How to calculate system load, and what it looks like](system-load-calculation-and-looks/README.md)
-        - What system load looks like?
-        - How to calculate system load?
-- `Lisp`
+- 系统设计与分析
+    - [`Cache`实践](cache-practice/README.md)  
+        - 应用开发中，`Cache`毫无疑问是很重要的一块：提升应用性能的关键，降低像`DB`这样关键资源的负荷；
+        - 但`Cache`的使用有很多要注意的问题与陷阱。
+    - [任务分发均匀性的模型量化分析](lb-distribution-uniformity-analysis/README.md)  
+        - 任务分发在软件系统的很多地方会出现。
+        - 任务分发/`LB`的均匀性是一个需要考虑的问题，会导致不必要的过载甚至宕机。
+    - [系统`Load`的样子与计算方式](system-load-calculation-and-looks/README.md)  
+      你常常看的`Load 1/5/15`是怎么回事？
+- 编程语言
     - [`Lisp` Practice](lisp-practice/README.md)  
       对于大多数程序员来说，`Lisp`是编程语言中的一个神。
