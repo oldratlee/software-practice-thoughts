@@ -2,6 +2,10 @@
 
 <img src="images/miscellany-icon.png" width="27%" align="right" />
 
+[![知识共享协议（CC协议）](https://img.shields.io/badge/License-Creative%20Commons-FE6B3A.svg) ![Attribution-NonCommercial-ShareAlike CC BY-NC-SA](images/LICENSE.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)
+[![GitHub stars](https://img.shields.io/github/stars/oldratlee/software-practice-miscellany.svg?style=social&label=Star)](https://github.com/oldratlee/software-practice-miscellany/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/oldratlee/software-practice-miscellany.svg?style=social&label=Fork)](https://github.com/software-practice-miscellany/software-practice-miscellany/fork)
+
 记录与整理平时自己的
 
 - 软件实践的讨论
@@ -24,7 +28,7 @@
 - `SCM`
     - [Why `Git`](git/README.md)
     - [`Git`学习资料](git/study-material.md)
-    - 分享（`PPT`）:
+    - 分享PPT:
         - [Git/VCS的使用与原则 简介](git/git-usage-and-principle-v0.3.pptx)
         - [Git/GitLab(Github)使用](git/git-gitlab-usage.pptx)
 - 如何做开源项目
