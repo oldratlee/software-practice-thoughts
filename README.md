@@ -29,7 +29,7 @@
     - [Why `Git`](git/README.md)
     - [`Git`学习资料](git/study-material.md)
     - 分享PPT:
-        - [Git/VCS的使用与原则 简介](git/git-usage-and-principle-v0.3.pptx)
+        - [Git/VCS的使用与原则 简介](git/git-usage-and-principle-v0.3.1.pptx)
         - [Git/GitLab(Github)使用](git/git-gitlab-usage.pptx)
 - 如何做开源项目
     - 分享PPT：[开源漫游者指南：开源的工作内容与要点](hitchhikers-guide-to-open-source/开源漫游者指南-v0.9.1.pptx)

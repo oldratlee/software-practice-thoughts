@@ -59,7 +59,7 @@
 > 相关资料，个人做的分享整理：
 >
 > - 分享PPT：[开源漫游者指南：开源的工作内容与要点](../hitchhikers-guide-to-open-source/开源漫游者指南-v0.9.1.pptx)
-> - 分享PPT：[Git/VCS 使用与原则 简介](../git/git-usage-and-principle-v0.3.pptx)
+> - 分享PPT：[Git/VCS 使用与原则 简介](../git/git-usage-and-principle-v0.3.1.pptx)
 > - 分享PPT：[软件可靠性设计的实践](../practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.1.pptx)
 
 ## 1. 产品开源的用户体验
