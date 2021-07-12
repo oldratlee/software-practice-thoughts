@@ -36,7 +36,7 @@
 - 软件文档
     - [如何写一个`issue`](how-to-write-a-issue.md)
 - 系统设计与分析
-    - 分享PPT：[软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.0.pptx)
+    - 分享PPT：[软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.1.pptx)
     - [平台产品逻辑与执行](product-logic-for-platform-product/README.md)
     - [多响应异步请求模式下需求满足的分析模型](multi-respose-async-request-pattern-analysis-model/README.md)
         - 请求的3个关注维度：`CRC`；`CRC`也是请求的平衡维度，所谓平衡是指：当不可兼得时，可互相置换。
