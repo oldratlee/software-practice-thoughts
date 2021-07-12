@@ -38,12 +38,18 @@
 - 系统设计与分析
     - 分享PPT：[软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.0.pptx)
     - [平台产品逻辑与执行](product-logic-for-platform-product/README.md)
-    - [`Cache`实践](cache-practice/README.md)  
-        - 应用开发中，`Cache`毫无疑问是很重要的一块：提升应用性能的关键，降低像`DB`这样关键资源的负荷；
-        - 但`Cache`的使用有很多要注意的问题与陷阱。
+    - [多响应异步请求模式下需求满足的分析模型](multi-respose-async-request-pattern-analysis-model/README.md)
+        - 请求的3个关注维度：`CRC`；`CRC`也是请求的平衡维度，所谓平衡是指：当不可兼得时，可互相置换。
+        - **请求所关注与平衡的CRC维度模型 也一样适用于 同步请求模式，并不耦合 多响应异步请求模式。**  
+          只是多响应异步请求模式下的复杂性，在分析上对请求维度模型的需要变得迫切了。  
+          我们可以用请求维度`CRC`模型作为 引入多响应异步请求模式后对产品/用户体验的优化程度 的一种度量方式。
+        - 多响应/异步的模式下，相对于传统的同步模式，可以为业务提供了更灵活方便的策略。
     - [任务分发均匀性的模型量化分析](lb-distribution-uniformity-analysis/README.md)  
         - 任务分发在软件系统的很多地方会出现。
         - 任务分发/`LB`的均匀性是一个需要考虑的问题，会导致不必要的过载甚至宕机。
+    - [`Cache`实践](cache-practice/README.md)  
+        - 应用开发中，`Cache`毫无疑问是很重要的一块：提升应用性能的关键，降低像`DB`这样关键资源的负荷；
+        - 但`Cache`的使用有很多要注意的问题与陷阱。
     - [系统`Load`的样子与计算方式](system-load-calculation-and-looks/README.md)  
       你常常看的`Load 1/5/15`是怎么回事？
 - 编程语言
