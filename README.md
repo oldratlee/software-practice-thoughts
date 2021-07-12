@@ -21,22 +21,14 @@
     - [2021年](broken-thoughts/README.md)
     - [2020年](broken-thoughts/2020.md)
 - Code Review
-    - [`compileflow`开源项目的代码review](compiler-flow-code-review/README.md)
+    - [`compileflow`开源项目的Code Review](compiler-flow-code-review/README.md)
 
 ## 主题思考
 
-- `SCM`
-    - [Why `Git`](git/README.md)
-    - [`Git`学习资料](git/study-material.md)
-    - 分享PPT:
-        - [Git/VCS的使用与原则 简介](git/git-usage-and-principle-v0.3.1.pptx)
-        - [Git/GitLab(Github)使用](git/git-gitlab-usage.pptx)
 - 如何做开源项目
-    - 分享PPT：[开源漫游者指南：开源的工作内容与要点](hitchhikers-guide-to-open-source/开源漫游者指南-v0.9.1.pptx)
-- 软件文档
-    - [如何写一个`issue`](how-to-write-a-issue.md)
+    - 分享PPT [开源漫游者指南：开源的工作内容与要点](hitchhikers-guide-to-open-source/开源漫游者指南-v0.9.1.pptx)
 - 系统设计与分析
-    - 分享PPT：[软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.1.pptx)
+    - 分享PPT [软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.1.pptx)
     - [平台产品逻辑与执行](product-logic-for-platform-product/README.md)
     - [多响应异步请求模式下需求满足的分析模型](multi-respose-async-request-pattern-analysis-model/README.md)
         - 请求的3个关注维度：`CRC`；`CRC`也是请求的平衡维度，所谓平衡是指：当不可兼得时，可互相置换。
@@ -52,6 +44,14 @@
         - 但`Cache`的使用有很多要注意的问题与陷阱。
     - [系统`Load`的样子与计算方式](system-load-calculation-and-looks/README.md)  
       你常常看的`Load 1/5/15`是怎么回事？
+- `SCM`
+    - [Why Git](git/README.md)
+    - [Git学习资料](git/study-material.md)
+    - 分享PPT
+        - [Git/VCS的使用与原则 简介](git/git-usage-and-principle-v0.3.1.pptx)
+        - [Git/GitLab(Github)使用](git/git-gitlab-usage.pptx)
+- 软件文档
+    - [如何写一个`issue`](how-to-write-a-issue.md)
 - 编程语言
     - [`Lisp` Practice](lisp-practice/README.md)  
       对于大多数程序员来说，`Lisp`是编程语言中的一个神。
