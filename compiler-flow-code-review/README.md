@@ -123,8 +123,8 @@
         - **主接口** `interface ProcessEngine<T extends FlowModel<??>>` 缺失了
         - 还有很多接口/方法 :")
     - 转型操作
-        - 转型操作Warning，在 确定是安全且不得不的情况下， 使用 `@SuppressWarnings("unchecked")`    
-        ![image.png](images/04.png)
+        - 转型操作Warning，在 确定是安全且不得不的情况下， 使用 `@SuppressWarnings("unchecked")`  
+          ![image.png](images/04.png)
 3. **拼写错误**
     - 如，`DEF*UA*LT_JAVA_SOURCE_VERSION` -> `DEF*AU*LT_JAVA_SOURCE_VERSION`
 
@@ -164,7 +164,7 @@
 用户调用接口是使用成本！！！  
 （没有接口无需调用就能解决问题，那是最好的了。Woo~ 🤥 😂 ）
 
-PS: 深模块 一词来自书《[A Philosophy of Software Design](https://book.douban.com/subject/30218046/)》： 
+PS: 深模块 一词来自书《[A Philosophy of Software Design](https://book.douban.com/subject/30218046/)》：  
 ![image.png](images/05.png)
 
 #### 3.1.1 实践推论
@@ -172,7 +172,7 @@ PS: 深模块 一词来自书《[A Philosophy of Software Design](https://book.d
 原则『按系统(子)领域/模型拆分，各个 **(子)领域**自包含』的**推论**：
 
 - **不要** 面向**技术方式/特征**来划分包，而是面向**业务域**的方式拆分。
-    - 如`exception`、`contants`、`model`、`(error)code`这样的包名   
+    - 如`exception`、`contants`、`model`、`(error)code`这样的包名  
       像是不是异常、常量，这些是技术特征。应该**尽量分拆入其对应(子)领域。**
     - 面向技术独立包 会导致
         - 与业务域（要解决的问题）关联不强的**孤立技术类**。这样的代码孤立感来自：
@@ -226,30 +226,32 @@ PS: 深模块 一词来自书《[A Philosophy of Software Design](https://book.d
 
 #### 3.1.∞. 关于API
 
+- 从API的特征来说（即API的定义）：  
+  **只要能被用户使用观察的、改变了会Break用户代码的部分**，即属于API。
 - API包含哪些内容（即 都放在**自己域的根包**下的内容）：
-    - API的(Java) **接口/方法**
-    - (Java)接口方法涉及的 **POJO类**，表达了这个域输入输出的数据（正常情况）。
+    - API的(`Java`) **接口/方法**
+    - (Java)接口方法涉及的 **`POJO`类**，表达了这个域输入输出的数据（正常情况）。
         - 对应目前的实践是 放在了 model 子包下。多了一次远跳的代码查看/理解的成本。
         - **如果一个域根包下类太多了（如Model类），则应该思考一下领域拆分是不是要优化了？**
-    - (Java)接口方法涉及的 **异常类**，表达这个域的出错情况。  
+    - (`Java`)接口方法涉及的 **异常类**，表达这个域的出错情况。  
       正常（`POJO`）/出错（异常）情况的输入输出类 等同重要。
-    - 涉及的这些实现类的序列化形式（因为用户使用关注这些实现类序列化所引发的兼容性问题）。
-      这一点 现在可能 相对不怎么关注了 😂
-- 详见 《[Effective Java](https://book.douban.com/subject/30412517/)》
+    - 涉及的这些实现类的序列化形式。
+        - 因为用户使用关注这些实现类序列化所引发的兼容性问题。
+        - 这条 现在可能相对被关注得少了 😂
+    - 这个API包含条目 来自 《[Effective Java](https://book.douban.com/subject/30412517/)》
+        - 《Effective Java》简直是`Java`专业开发的百科全书。
 
 ### 3.2 扩展设计
 
 #### 3.2.0 关于 SPI（扩展）vs API
 
-**SPI**（Service Provider Interface，即扩展）与 **API**（Application Programming Interface）对应。
+**SPI**（`Service Provider Interface`，即扩展）与 **API**（`Application Programming Interface`）对应。
 
 - SPI 与 API 都是 Interface。
-- **SPI**：
-    - 用于，在不修改框架/库的情况下，替换/追加 框架/库内部组件的实现。
+- **SPI**：用于，在不修改框架/库的情况下，替换/追加 框架/库内部组件的实现。
     - 面向角色、用户是 框架的（三方）开发者。  
-      三方开发者，是指 非框架的开发者，即不能、没有权限去修改框架/库本身的代码。
-- **API**：
-    - 用于暴露框架/库 的业务功能。
+      三方开发者，是指非框架的开发者，即不能或没有权限 去修改 框架/库本身的代码。
+- **API**：用于暴露框架/库 的业务功能。
     - 面向角色、用户是 框架外部的业务用户、使用者。
 - 广义上讲，SPI 是 API的一种。
 - **API 与 SPI的区别**：
@@ -277,7 +279,8 @@ PS: 深模块 一词来自书《[A Philosophy of Software Design](https://book.d
 **示例**：
 
 - `Dubbo`框架：有大量的扩展（80+个），并没有使用显式的`spi`包。
-- 显式 `spi`包的示例：[alibaba/transmittable-thread-local - spi包](https://github.com/alibaba/transmittable-thread-local/blob/master/src/main/java/com/alibaba/ttl/spi/)<br />里面就是 用于加到API对象的一些类，但只有 框架开发者 才关心的类。
+- 显式 `spi`包的示例：[alibaba/transmittable-thread-local - spi包](https://github.com/alibaba/transmittable-thread-local/blob/master/src/main/java/com/alibaba/ttl/spi/)  
+  里面就是 用于加到API对象的一些类，但只有 框架开发者 才关心的类。
 
 #### 3.2.2 关于扩展的依赖管理
 
@@ -297,7 +300,7 @@ PS: 深模块 一词来自书《[A Philosophy of Software Design](https://book.d
 
 ### 4.1 通用工程实践
 
-如软件版本发布管理、构建、VCS，etc。<br />
+如软件版本发布管理、构建、VCS，etc。
 
 #### 4.1.1 发布版本管理
 
