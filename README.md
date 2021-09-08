@@ -32,6 +32,9 @@
       我们可以用请求维度`CRC`模型作为 引入多响应异步请求模式后对产品/用户体验的优化程度 的一种度量方式。
     - 多响应/异步的模式下，相对于传统的同步模式，可以为业务提供了更灵活方便的策略。
 - **2020年** [软件实践碎碎念](broken-thoughts/2020.md)
+- **2020-08** [`compileflow`开源项目的Code Review](compiler-flow-code-review/README.md)
+    - Review与交流讨论的过程 是自己整理学习的过程。大部分的整理内容 其实是独立于具体的一个开源项目。
+    - 涉及如 代码实现（文档、可靠性、专业性）、系统设计（领域/模型拆分的原则与实践、扩展设计）、工程实践（版本管理、构建、测试）。
 - **2020-08** | 2017-08 … 2014 分享PPT [软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.1.pptx)
 - **2020-07** 分享PPT [Git/VCS的使用与原则 简介](git/git-usage-and-principle-v0.3.1.pptx)
 - **2020-03** [系统`Load`的样子与计算方式](system-load-calculation-and-looks/README.md)  
@@ -78,6 +81,8 @@
     - [2020年](broken-thoughts/2020.md)
 - Code Review
     - [`compileflow`开源项目的Code Review](compiler-flow-code-review/README.md)
+        - Review与交流讨论的过程 是自己整理学习的过程。大部分的整理内容 其实是独立于具体的一个开源项目。
+        - 涉及如 代码实现（文档、可靠性、专业性）、系统设计（领域/模型拆分的原则与实践、扩展设计）、工程实践（版本管理、构建、测试）。
 
 ## 如何做开源项目
 
