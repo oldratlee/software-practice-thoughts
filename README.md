@@ -36,7 +36,7 @@
 - **2020-08** [`compileflow`开源项目的Code Review](compiler-flow-code-review/README.md)
     - Review与交流讨论的过程 是自己整理学习的过程。大部分的整理内容 其实是独立于具体的一个开源项目。
     - 涉及如 代码实现（文档、可靠性、专业性）、系统设计（领域/模型拆分的原则与实践、扩展设计）、工程实践（版本管理、构建、测试）。
-- **2020-08** | 2017-08 … 2014 分享PPT [软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.1.pptx)
+- **2020-08** | 2017-08 … 2014 分享PPT [软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.2.pptx)
 - **2020-07** 分享PPT [Git/VCS的使用与原则 简介](git/git-usage-and-principle-v0.3.1.pptx)
 - **2020-03** [系统`Load`的样子与计算方式](system-load-calculation-and-looks/README.md)  
   你常常看的`Load 1/5/15`是怎么回事？
@@ -96,7 +96,7 @@
 
 ## 系统设计与分析
 
-- 分享PPT [软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.1.pptx)
+- 分享PPT [软件可靠性设计的实践](practice-of-software-reliability-design/软件可靠性设计的实践-v0.9.2.pptx)
 - [平台产品逻辑与执行](product-logic-for-platform-product/README.md)
     - **全接管业务的功能** 是平台的目标，直接体现了平台的核心竞争力。  
       全接管业务的平台功能的多少/比例 可以用来度量 平台的成熟程度。
