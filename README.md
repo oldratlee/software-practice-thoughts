@@ -2,7 +2,7 @@
 
 <img src="images/miscellany-icon.png" width="25%" align="right" />
 
-[![知识共享协议（CC协议）](https://img.shields.io/badge/License-Creative%20Commons-FE6B3A.svg) ![Attribution-NonCommercial-ShareAlike](images/LICENSE.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)  
+[![知识共享协议（CC协议）](https://img.shields.io/badge/License-Creative%20Commons-FE6B3A.svg?logo=apache) ![Licence: CC BY-NC-SA 4.0](images/LICENSE.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)  
 [![GitHub stars](https://img.shields.io/github/stars/oldratlee/software-practice-miscellany.svg?style=social&label=Star)](https://github.com/oldratlee/software-practice-miscellany/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/oldratlee/software-practice-miscellany.svg?style=social&label=Fork)](https://github.com/software-practice-miscellany/software-practice-miscellany/fork)
 
@@ -15,7 +15,16 @@
 
 > PS：比起写博客，直接用`github`仓库的`Markdown`来记录真是简单省事！ 😂
 
-# ⏳ Archive（按内容时间排序）
+----------------------------------------
+
+- 🙈 [自己](http://weibo.com/oldratlee)写的这些内容难免有不足和不对之处，欢迎 👏
+    - 建议，[提交`Issue`](https://github.com/oldratlee/software-practice-miscellany/issues/new)
+    - 指正，[`Fork`后提通过`Pull Request`贡献修改](https://github.com/oldratlee/software-practice-miscellany/fork)
+- 如果理解上有疑问 或是 应用过程中碰到疑惑，请[提交 🙌 `Issue`](https://github.com/oldratlee/software-practice-miscellany/issues/new) ，一起学习交流讨论！
+
+# ⏳ 按内容时间排序
+
+> 下一节是 [⬇️ **按内容主题分类** ⬇️](#-%E6%8C%89%E5%86%85%E5%AE%B9%E4%B8%BB%E9%A2%98%E5%88%86%E7%B1%BB)
 
 - **2021年** [软件实践碎碎念](broken-thoughts/README.md)
 - **2021-06** [平台产品逻辑与执行](product-logic-for-platform-product/README.md)
@@ -62,6 +71,8 @@
 # 🎵 按内容主题分类
 
 <img src="images/miscellany-icon.png" width="30%" align="right" />
+
+> 上一节是 [⬆️ **按内容时间排序** ⬆️](#-%E6%8C%89%E5%86%85%E5%AE%B9%E6%97%B6%E9%97%B4%E6%8E%92%E5%BA%8F)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
