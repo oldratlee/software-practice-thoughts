@@ -69,8 +69,8 @@
         - 目前`compileflow`就只有 单工程模块，挺好的 :")
     - 并在 README文档 中引导用户对查看 这个Demo，方便用户快速运行与上手理解
     - 示例，参见`TransmittableThreadLocal`的
-        - 提供的Quick Start的[极简Demo](https://github.com/alibaba/transmittable-thread-local/tree/master/src/test/java/com/alibaba/demo/ttl)
-        - 文档引导：[完整可运行的Demo代码参见SimpleDemo.kt](https://github.com/alibaba/transmittable-thread-local#1-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8)
+        - 提供的Quick Start的[极简Demo](https://github.com/alibaba/transmittable-thread-local/tree/2.x/src/test/java/com/alibaba/demo/ttl)
+        - 文档引导：[完整可运行的Demo代码参见SimpleDemo.kt](https://github.com/alibaba/transmittable-thread-local/tree/2.x#1-%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8)
 
 ## 2. 代码实现
 
@@ -116,7 +116,7 @@
 1. **命名**。如大小写/拼写 etc。
     - Inword（连单词）
         - 如 **`Compile*f*lowException -> Compile*F*lowException`**
-    - 不要缩写。可读性优先；且现代化的IDE自动补全能力让编码键入几乎没有成本。
+    - 不要缩写。可读性优先；并且现代化`IDE`的自动补全能力让不用缩写的编码键入几乎没有额外成本。
         - 如，`EncodingConsts` -> `EncodingConstants`
 2. **代码Warning**。期望**0 Warning**。如泛型、转型操作的代码Warning。
     - 泛型类/接口 缺失了 泛型参数
