@@ -44,6 +44,7 @@
 
 > 下一节是 [⬇️ **按内容主题分类** ⬇️](#-%E6%8C%89%E5%86%85%E5%AE%B9%E4%B8%BB%E9%A2%98%E5%88%86%E7%B1%BB)
 
+- **2025-10** [并发任务编排的实现与设计 —— 以`Java CompletableFuture`为例](implementation-n-design-of-concurrency-orchestration/)
 - **2021年** [软件实践碎碎念](broken-thoughts/README.md)
 - **2021-06** [平台产品逻辑与执行](product-logic-for-platform-product/README.md)
     - **全接管业务的功能** 是平台的目标，直接体现了平台的核心竞争力。  
@@ -136,6 +137,10 @@
     - 但`Cache`的使用有很多要注意的问题与陷阱。
 - [系统`Load`的样子与计算方式](system-load-calculation-and-looks/README.md)  
   你常常看的`Load 1/5/15`是怎么回事？
+
+## 并发
+
+- [并发任务编排的实现与设计 —— 以`Java CompletableFuture`为例](implementation-n-design-of-concurrency-orchestration/)
 
 ## `SCM`
 
